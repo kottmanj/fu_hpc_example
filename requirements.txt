@@ -4,5 +4,5 @@ tequila-basic==1.7.0
 
 # otherwise errors in pyscf dependencies
 h5py==3.1.0
-# orhterwise errors in tequila dependencies (over openfermion -> cirq)
+# otherwise conficts from tequila dependencies (over tq->openfermion->cirq->pandas)
 cirq==0.14.0
