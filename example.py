@@ -1,6 +1,6 @@
 import tequila as tq
 
-geometry = "Be 0.0 0 0.0 0.0\n H 0.0 0.0 1.5\n H 0.0 0.0 -1.5"
+geometry = "Be 0.0 0 0.0 0.0\nH 0.0 0.0 1.5\nH 0.0 0.0 -1.5"
 # needs pyscf or psi4 installed
 mol = tq.Molecule(geometry=geometry, basis_set="sto-3g")
 H = mol.make_hamiltonian()
