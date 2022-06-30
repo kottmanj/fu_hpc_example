@@ -1,4 +1,4 @@
-pyscf==2.0.0
+pyscf==2.0.1
 qulacs==0.3.0
 tequila-basic==1.7.0
 
