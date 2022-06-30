@@ -1,7 +1,7 @@
 # Tequila Example
 ```bash
 pip install -r requirements.txt
-python example.py
+sbatch run.sh
 ```
 
 # Tequila with Madness Example
