@@ -2,5 +2,7 @@ pyscf==2.0.0
 qulacs==0.3.0
 tequila-basic==1.7.0
 
-# accounting for pyscf issue
+# otherwise errors in pyscf dependencies
 h5py==3.1.0
+# orhterwise errors in tequila dependencies (over openfermion -> cirq)
+cirq==0.14.0
